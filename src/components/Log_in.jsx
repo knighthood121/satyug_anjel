@@ -21,7 +21,7 @@ function Log_in() {
       
         <input type="password" placeholder='Password' className='password'/>
          <div className='rec'>
-          <button>LOG IN</button>
+          <a href="/home"><button>LOG IN</button></a>
          </div>
         </div>
         <div className='ellipse2'>
