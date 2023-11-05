@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.profile{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.ellipse001{
+
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    justify-content: space-between;
+}
+.ellipse002{
+    display: flex;
+    position: relative;
+}
+
+.pro{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 7vh;
+    padding-left: 9vw;
+}
+
+/* logo disigen */
+
+.logo01{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.log01{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    left: 75vw;
+    justify-content: center;
+    height: 10vh;
+    width: 9.9vh;
+    background: #03B38D;
+    border-radius: 50%;
+    box-shadow: -8px -7px 13px 4px rgba(255, 255, 255, 0.65) inset, 8px 7px 23px 4px rgba(0, 0, 0, 0.65) inset;
+}
+
+/* profile container  */
+.Pcontainer{
+    position: absolute;
+    top: 17vh;
+    left: 20vw;
+    height: 55vw;
+    width: 60vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(255, 255, 255, 0.65), 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Pcontainer img{
+    height: 50vw;
+    width: 55vw;
+    border-radius: 10%;
+}
+.P_person{
+    position: absolute;
+    top: 43vh;
+    right: 32vw;
+   align-items: center;
+    font-size: 2rem;
+}
+/* profile container end  */
+
+.Pfunction{
+    top: 50vh;
+    position: absolute;
+    
+}
+.Pfunction .fd{
+    
+    display: flex;
+   
+    align-items: center;
+    font-size: 1.5rem ;
+    height: 5vh;
+    width: 70vw;
+    margin-bottom: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(255, 255, 255, 0.65), 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Pfunction .fd p{
+    position: relative;
+    left: 10vw;
+}
+.fd img{
+    position: relative;
+    left: 6.9vh;
+    height: 29px;
+}
+.Pfunction .ep{
+   
+    display: flex;
+    
+    align-items: center;
+    font-size: 1.5rem ;
+    height: 5vh;
+    width: 70vw;
+    margin-bottom: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(255, 255, 255, 0.65), 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Pfunction .ep p{
+    position: relative;
+    left: 10vw;
+}
+.ep img{
+    position: relative;
+    left: 14vh;
+    height: 25px;
+    /* width: 1rem; */
+}
+.Pfunction .sc{
+
+    display: flex;
+   
+    align-items: center;
+    font-size: 1.5rem ;
+    height: 5vh;
+    width: 70vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3vh;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(255, 255, 255, 0.65), 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Pfunction .sc p{
+    position: relative;
+    left: 10vw;
+}
+.sc img{
+    position: relative;
+    left: 16.5vh;
+    height: 25px;
+}
+.Pfunction .lg{
+    /* text-align: center; */
+   
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 1.5rem ;
+    height: 5vh;
+    width: 70vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3vh;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(255, 255, 255, 0.65), 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Pfunction .lg p{
+    position: relative;
+    left: 10vw;
+}
+.Pfunction .lg img{
+      position: relative;
+      left: 18vh;
+      height: 25px;
+      /* height: 1000px;
+      width: 1rem; */
+}
+
+.rec6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14vh;
+    margin-left: 5vw;
+    border-radius: .9rem;
+    height: 5vh;
+    width: 90vw;
+    background: rgba(255, 255, 255, 0.33);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.h{
+      position: relative;
+      left:5vh;
+      /* right: ; */
+}
+.p{
+    position: relative;
+    right: 5vh;
+}
+.h img{
+    height: 30px;
+}
+.m img{
+    height: 30px;
+}
+.p img{
+    height: 30px;
+}
+

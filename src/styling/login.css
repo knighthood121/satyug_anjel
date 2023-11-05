@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
+
+.ellipse1{
+    display: flex;
+    justify-content: flex-end;
+}
+.ellipse1 img{
+    height: 330px;
+    width: 180px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -250px;
+    height: 277px;
+    width: 270px;
+    background: #03B38D;
+    border-radius: 50%;
+    box-shadow: -8px -7px 13px 4px rgba(255, 255, 255, 0.65) inset, 8px 7px 23px 4px rgba(0, 0, 0, 0.65) inset;
+  
+}
+.log img{
+    height: 249px;
+    width: 240px;
+}
+.ellipse2{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 0;
+    /* position: absolute; */
+}
+.ellipse2 img{
+    width: 50vw;
+    height: 40vh;
+    margin-bottom: 0;
+}
+
+.log_in p{
+    padding-bottom: 60px;
+   font-size: 32px;
+   font-weight: 400;
+   border: none;
+   word-wrap: 'break-word';
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.log_in{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -30vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.email {
+    border: none;
+    background: none;
+    border-color: none;
+    height: 25px;
+    border-bottom:2px solid black ;
+    margin-bottom: 10px;
+ }
+ .password {
+    border: none;
+    background: none;
+    height: 25px;
+    border-bottom:2px solid black ;
+    margin-bottom: 10px;
+ }
+ 
+.rec button{
+    width: 170px;
+    height: 49px;
+     background: #038E6C; 
+     border-radius: 35px;
+     color: white;
+     font-size: 20px;
+     margin-top: 15px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* end point  */

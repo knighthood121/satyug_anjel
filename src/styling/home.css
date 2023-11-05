@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ellipse01{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    justify-content: space-between;
+}
+.ellipse02{
+    display: flex;
+    position: relative;
+    float: left;
+}
+
+.hom{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 7vh;
+    padding-left: 9vw;
+}
+
+/* logo disigen */
+
+.logo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.log1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    left: 75vw;
+    justify-content: center;
+    height: 10vh;
+   
+    width: 9.9vh;
+    background: #03B38D;
+    border-radius: 50%;
+    box-shadow: -8px -7px 13px 4px rgba(255, 255, 255, 0.65) inset, 8px 7px 23px 4px rgba(0, 0, 0, 0.65) inset;
+}
+.log1 img{
+    height: 8.9vh;
+    width: 8.5vh;
+}
+/* all rec area  */
+.team{
+    position: absolute; 
+    /* display: flex; */
+    /* margin-bottom: -30vh;  */
+    top: 16.8vh;
+    left: 5vw;
+    
+}
+/* first rectengle  */
+.rec1{
+    height: 18.8vh;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.333px;
+    border-radius: 0.8rem;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(255, 255, 255, 0.65), 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.line{
+    background-color: #03B38D;
+    height: 18.8vh;
+    width: 1vw;
+}
+.f1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 5vw;
+   
+}
+.f1 button{
+    background-color: #03B38D;
+    border-radius: 1rem ;
+    height: 2.1rem;
+    width:   8rem;
+    position: relative;
+    top: .8vh;
+    /* margin-top: 5vh ; */
+}
+.f2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 5vw;
+    
+}
+.f2 button{
+    background-color: #03B38D;
+    border-radius: 1rem ;
+    height: 2.1rem;
+    width:   8rem;
+    position: relative;
+    top: .8vh;
+}
+/* end first rectangle */
+/* second rectangle start */
+.rec2{
+    height: 15.8vh;
+    /* display: flex; */
+    margin-top: 5vh;
+    /* justify-content: space-between; */
+    width: 90vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.333px;
+    border-radius: 0.8rem;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(255, 255, 255, 0.65), 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.rec2 p{
+    position: relative;
+    left: 5vw;
+}
+
+.img{
+    position: relative;
+    left:5vw ;
+    top: 4vw;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 10px;
+    background: #D9D9D9;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, -2px -4px 4px 0px rgba(255, 255, 255, 0.65) inset;
+}
+.img img{
+    height: 5vh;
+    background:none;
+}
+.leader1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6vw;
+}
+.leader1 p{
+    position: relative;
+    top: 6vw;
+    left: 9vw;
+    font-size: 2rem;
+}
+ /* second rectangle end  */
+ /* third start  */
+ .rec3{
+    height: 11.8vh;
+    /* display: flex; */
+    margin-top: 4vh;
+    /* justify-content: space-between; */
+    width: 90vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.333px;
+    border-radius: 0.8rem;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(255, 255, 255, 0.65), 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.rec3 p{
+    position: relative;
+    left: 5vw;
+    top: -1vh;
+}
+.img1{
+    position: relative;
+    left:4vw ;
+    top: 3vw;
+    height: 14vw;
+    width: 14vw;
+    border-radius: 10px;
+    background: #D9D9D9;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, -2px -4px 4px 0px rgba(255, 255, 255, 0.65) inset;
+}
+.img img{
+    height: 5vh;
+    background:none;
+}
+.leader2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6vw;
+}
+.leader2 p{
+    position: relative;
+    top: 6vw;
+    left: 9vw;
+    font-size: 2rem;
+}
+/* third ractangle end  */
+/* four reactangle start  */
+
+.rec4{
+    height: 11.8vh;
+    /* display: flex; */
+    margin-top: 1vh;
+    /* justify-content: space-between; */
+    width: 90vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.333px;
+    border-radius: 0.8rem;
+    background: #D9D9D9;
+    box-shadow: -2px -2px 4px 0px rgba(255, 255, 255, 0.65), 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.rec4 p{
+    position: relative;
+    left: 5vw;
+    top: -1vh;
+}
+.img2{
+    position: relative;
+    left:4vw ;
+    top: 3vw;
+    height: 14vw;
+    width: 14vw;
+    border-radius: 10px;
+    background: #D9D9D9;
+    box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, -2px -4px 4px 0px rgba(255, 255, 255, 0.65) inset;
+}
+.img img{
+    height: 5vh;
+    background:none;
+}
+.leader3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6vw;
+}
+.leader3 p{
+    position: relative;
+    top: 6vw;
+    left: 9vw;
+    font-size: 2rem;
+}
+
+/* ractangle four end  */
+/* rectangle five start  */
+.rec5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8vh;
+    border-radius: .9rem;
+    height: 5vh;
+    width: 90vw;
+    background: rgba(255, 255, 255, 0.33);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.h{
+      position: relative;
+      left:5vh;
+      /* right: ; */
+}
+.p{
+    position: relative;
+    right: 5vh;
+}
+
+/* rectangle five end  */

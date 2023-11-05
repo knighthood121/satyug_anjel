@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chats{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.ellipse0001{
+
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    justify-content: space-between;
+}
+.ellipse0002{
+    display: flex;
+    position: relative;
+}
+
+.cha{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 7vh;
+    padding-left: 9vw;
+}
+
+/* logo disigen */
+
+.logo001{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.log001{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    left: 75vw;
+    justify-content: center;
+    height: 10vh;
+    width: 9.9vh;
+    background: #03B38D;
+    border-radius: 50%;
+    box-shadow: -8px -7px 13px 4px rgba(255, 255, 255, 0.65) inset, 8px 7px 23px 4px rgba(0, 0, 0, 0.65) inset;
+}
